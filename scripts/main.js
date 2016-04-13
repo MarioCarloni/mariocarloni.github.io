@@ -32,7 +32,7 @@ require([
       mapOptions: {
         logo: false,
         maxZoom: 13,
-        minZoom: 3
+        minZoom: 4
       }
     }).then(function (response) {
 
