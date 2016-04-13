@@ -28,7 +28,12 @@ require([
     Color,
     LocateButton){
 
-    arcgisUtils.createMap("c3b543dba1db4586aa4f7f7f677590ac", "mapDiv").then(function (response) {
+    arcgisUtils.createMap("c3b543dba1db4586aa4f7f7f677590ac", "mapDiv", {
+      mapOptions: {
+        logo: false,
+        maxZoom: 13
+      }
+    }).then(function (response) {
 
       map = response.map;
 
