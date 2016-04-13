@@ -31,7 +31,8 @@ require([
     arcgisUtils.createMap("c3b543dba1db4586aa4f7f7f677590ac", "mapDiv", {
       mapOptions: {
         logo: false,
-        maxZoom: 13
+        maxZoom: 13,
+        minZoom: 3
       }
     }).then(function (response) {
 
